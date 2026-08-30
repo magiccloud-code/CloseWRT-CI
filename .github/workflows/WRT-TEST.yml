@@ -10,11 +10,10 @@ on:
   workflow_dispatch:
     inputs:
       CONFIG:
-        default: 'MTK-7981'
+        default: 'MTK-7986'
         required: true
         type: choice
         options:
-          - MT7981
           - MT7986
           - TEST
       SOURCE:
@@ -27,7 +26,10 @@ on:
       BRANCH:
         default: 'openwrt-24.10-6.6'
         required: true
-        type: string
+        type: chioce
+        options:
+         - openwrt-24.10-66
+         - 25.12
       PACKAGE:
         required: false
         type: string
