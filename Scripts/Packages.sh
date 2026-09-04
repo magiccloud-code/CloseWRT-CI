@@ -62,7 +62,7 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "clashoo" "kenzok8/openwrt-clashoo" "main"
-UPDATE_PACKAGE "daede" "kenzok8/openwrt-daede" "main"
+UPDATE_PACKAGE "daede" "kenzok8/openwrt-daede" "main" "" "daed dae"
 
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 UPDATE_PACKAGE "diskman" "sbwml/luci-app-diskman" "main"
